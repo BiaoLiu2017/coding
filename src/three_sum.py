@@ -72,6 +72,13 @@
 # 若大于0，右指针向左移动直到数值变化。
 # 若小于0，左指针向右移动直到数值变化。
 # 直到左右相遇，i++，直到i对应的值大于0.
+'''
+执行结果：
+通过
+执行用时：664 ms, 在所有 Python3 提交中击败了63.37% 的用户
+内存消耗：18 MB, 在所有 Python3 提交中击败了22.75% 的用户
+通过测试用例：311 / 311
+'''
 from typing import List
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
