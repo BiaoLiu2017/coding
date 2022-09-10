@@ -1,3 +1,3 @@
-# coding
+# leetcode-python
 
-A record for leetcode.
+LeetCode Python solutions.
